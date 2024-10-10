@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+    <header class="bg-dark  text-white p-3 d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="imagenes/Sena_Colombia_logo.svg (2).png" alt="Logo de Mi Blog" class="logo-img">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#instructorModal">Instructor</a> <!-- Enlace que abre el modal de Instructor -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#aprendizModal">Aprendiz</a> <!-- Enlace que abre el modal de Aprendiz -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+     
+
+
+<!-- Modal para Instructor -->
+<div class="modal fade" id="instructorModal" tabindex="-1" aria-labelledby="instructorModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="instructorModalLabel">Instructor</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>FAIDER HUMBERTO BARRERO SANCHEZ  </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para Aprendiz -->
+<div class="modal fade" id="aprendizModal" tabindex="-1" aria-labelledby="aprendizModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aprendizModalLabel">Aprendiz</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>MIGUEL ANGEL ACEVEDO AMAYA</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    
+    <body>
+        <body>
+            <!-- Banner principal -->
+            <section class="banner text-center bg-light p-5">
+                <h1 class="animate__animated animate__backInLeft">INTERFERENCIA Y RUIDO EN LAS SEÑALES ANALÓGICAS</h1>
+                <p>Conocimientos adquiridos sobre estos fenómenos en las señales analógicas</p>
+            </section>
+        
+            <!-- Artículo principal -->
+            <article class="container mt-5">
+                <!-- Interferencia -->
+                <section>
+                    <div class="section-title">
+                        <h2>¿Qué es la Interferencia en una Señal Analógica?</h2>
+                    </div>
+                    <img src="imagenes/interferecnia.png" alt="Imagen de interferencia" class="section-img">
+                    <p>
+                        La interferencia en una señal analógica se refiere a la alteración o distorsión que sufre la señal original debido a la presencia de otras señales no deseadas, ya sean de origen electromagnético, como interferencias de radiofrecuencia, o de otras fuentes de ruido. Esta interferencia puede afectar la calidad de la transmisión de información y causar errores en la recepción de la señal.
+                    </p>                    
+                    <p class="cita">
+                        González, J. (2020). Interferencia en señales analógicas                                              
+                    </p>
+                    </footer>
+                </section>
+                </section>
+        
+                <!-- Ruido -->
+                <section>
+                    <div class="section-title">
+                    <h2>¿Qué es el Ruido en una Señal Analógica?</h2>
+                </div>
+                    <img src="imagenes/ruido.png" alt="Imagen de ruido" class="section-img">
+                    <p>
+                        El ruido en una señal analógica se refiere a cualquier perturbación indeseada que afecta la calidad de la señal original, dificultando la interpretación o transmisión de la información. Este ruido puede ser generado por diversas fuentes, como interferencias electromagnéticas, fluctuaciones térmicas o incluso componentes del sistema electrónico en uso. Su presencia puede introducir errores y degradar el rendimiento de los sistemas de comunicación.                    </p>
+                    <p class="cita">
+                        Rivas, M. (2019). Ruido en señales analógicas: causas y efectos.                                               
+                    </p>
+                </section>
+        
+                <!-- Ventajas y Desventajas -->
+                <section>
+                    <div class="section-title">
+                    <h2>Ventajas y Desventajas de la Interferencia y el Ruido en Señales Analógicas</h2>
+                </div>
+                    <img src="imagenes/ventaja.png" alt="Ventajas y Desventajas" class="section-img">
+                    <p>
+                        Tanto la interferencia como el ruido tienen un impacto considerable en las señales analógicas. A continuación, se presentan algunas ventajas y desventajas de estos fenómenos.
+                    </p>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>En algunos casos, el ruido puede ser utilizado para fines de prueba o calibración de sistemas.</li>
+                        <li>La interferencia puede ayudar a identificar problemas en los equipos y mejorar la calidad de los componentes.</li>
+                    </ul>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>El ruido deteriora la señal, afectando la calidad de audio o video en transmisiones.</li>
+                        <li>La interferencia puede causar pérdida completa de la señal o distorsiones importantes.</li>
+                        <li>Aumenta los costos de los sistemas, ya que se necesitan técnicas adicionales de filtrado o corrección para mitigar estos efectos.</li>
+                    </ul>
+                </section>
+        
+                        
+            <!-- Footer -->
+            <footer class="bg-dark text-white text-center py-3">
+                <div class="container">
+                    <p>© Servicio Nacional de Aprendizaje SENA | Comunicaciones Analógicas</p>
+                </div>
+            </footer>
+        </body>
+        
+    
+
+    <!-- Enlace a jQuery y Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- FontAwesome para los iconos sociales -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Enlaces a jQuery y Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
